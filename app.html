@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cambio de divisas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="parte1.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cambio de divisas</h1>
+    <div class="form">
+      <label for="amount-input">Monto:</label>
+      <input type="number" id="amount-input">
+      <label for="from-currency-select">De:</label>
+      <select id="from-currency-select">
+        <option value="USD">USD - Dólar estadounidense</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - Libra esterlina</option>
+        <option value="JPY">JPY - Yen japonés</option>
+      </select>
+      <label for="to-currency-select">A:</label>
+      <select id="to-currency-select">
+        <option value="USD">USD - Dólar estadounidense</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - Libra esterlina</option>
+        <option value="JPY">JPY - Yen japonés</option>
+      </select>
+      <button id="conversion-button">Convertir</button>
+    </div>
+    <div id="result-container"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  <script src="parte2.js"></script>
+  <script src="parte3.js"></script>
+  <script src="parte4.js"></script>
+  <script src="parte5.js"></script>
+  <script src="parte6.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
