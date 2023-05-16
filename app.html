@@ -27,6 +27,12 @@
         <option value="JPY">JPY - Yen japonés</option>
       </select>
       <button id="conversion-button">Convertir</button>
+      <button id="copy-button">Copiar resultado</button>
+      <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <input type="hidden" name="hosted_button_id" value="TU-ID-DE-BOTÓN-PAYPAL-VA-AQUÍ">
+        <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal, la forma más segura y rápida de pagar en línea.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </div>
     <div id="result-container"></div>
   </div>
@@ -41,7 +47,6 @@
   <script src="script.js"></script>
   <script src="app.js"></script>
   <script src="server.js"></script>
-
+  <script src="app2.js"></script>
 </body>
 </html>
-
